@@ -22,6 +22,7 @@ h3 {
 #home-score, #guest-score {
     color: red;
     font-size: 50px;
+   
 }
 .stats-box {
     background-color: #9aabd8;
@@ -37,4 +38,10 @@ h3 {
 .stats-button {
      margin-top: 10px;
     margin-left: 15px;
+}
+.home-box, .stats-box, .guest-box {
+    font-family: "Cursed Timer ULiL", sans-serif;
+}
+.score-buttons button, .stats-button button {
+    font-family: "Cursed Timer ULiL", sans-serif;
 }
