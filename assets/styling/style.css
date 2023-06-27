@@ -7,4 +7,34 @@ justify-content: space-around;
 }
 h3 {
     color: white;
+    text-align: center;
+}
+.home-box, .stats-box, .guest-box {
+    border: 1px solid;
+    border-radius: 10px;
+    width: 120px;
+    height: 155px;
+    text-align: center;
+}
+.home-box, .guest-box {
+    background-color: black;
+}
+#home-score, #guest-score {
+    color: red;
+    font-size: 50px;
+}
+.stats-box {
+    background-color: #9aabd8;
+}
+#stats-score {
+    color: black;
+    font-size: 50px;
+}
+.score-buttons {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.stats-button {
+     margin-top: 10px;
+    margin-left: 15px;
 }
