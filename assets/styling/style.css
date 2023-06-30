@@ -45,13 +45,15 @@ h3 {
 }
 .score-buttons button, .stats-button button {
     font-family: "Cursed Timer ULiL", sans-serif;
-    background-color: blue;
+    background-color: 3498db;
 }
-#button_score :hover {
+#button_score:hover {
     opacity: 0.5;
-    color: white;
+    color: blue;
+   
 }
-#newGame :hover {
+#newGame:hover {
     opacity: 0.5;
-    color: white;
+    color: blue;
+    
 }
