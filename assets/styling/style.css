@@ -57,3 +57,6 @@ h3 {
     color: blue;
     
 }
+.span:hover {
+    color: red;
+}
