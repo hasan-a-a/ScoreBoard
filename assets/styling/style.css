@@ -34,6 +34,7 @@ h3 {
 .score-buttons {
     margin-top: 10px;
     margin-left: 10px;
+  
 }
 .stats-button {
      margin-top: 10px;
@@ -44,4 +45,13 @@ h3 {
 }
 .score-buttons button, .stats-button button {
     font-family: "Cursed Timer ULiL", sans-serif;
+    background-color: blue;
+}
+#button_score :hover {
+    opacity: 0.5;
+    color: white;
+}
+#newGame :hover {
+    opacity: 0.5;
+    color: white;
 }
