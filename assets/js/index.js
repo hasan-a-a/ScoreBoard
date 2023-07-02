@@ -55,14 +55,17 @@ function reset() {
     homeScore.textContent = countHome
     guestScore.textContent = countGuest
 }
-if (guestScore < homeScore ) {
+
+if ( homeScore > guestScore ) {
     
     statsScore.textContent = 'HOME TEAM GET THE LEAD';
-}else if (homeScore < guestScore ){
+}else if ( guestScore > homeScore ){
     
     statsScore.textContent = 'GUEST TEAM GET THE LEAD';
 
 }else {
     statsScore.textContent = 'THE SCORE IS TIE';
 }
+
+
 
