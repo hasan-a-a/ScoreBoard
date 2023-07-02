@@ -52,8 +52,10 @@ function reset() {
     guestScore.textContent = countGuest
 }
 if (homeScore > guestScore) {
+   
     statsScore.textC.ontent = 'HOME TEAM GET THE LEAD'
 }else if (homeScore < guestScore){
+   
     statsScore.textContent = 'GUEST TEAM GET THE LEAD'
 
 }else {
