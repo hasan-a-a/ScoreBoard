@@ -10,6 +10,10 @@ let guestScore = document.getElementById ('guest-score')
 let statsScore = document.getElementById ('stats-score')
 let countHome = 0
 let countGuest = 0
+// const isTrue = true
+// const isFalse = false
+// homeScore = true
+// guestScore = false
 
 
 //the functions increment_1/2/3 are for home-score board
@@ -51,14 +55,14 @@ function reset() {
     homeScore.textContent = countHome
     guestScore.textContent = countGuest
 }
-if (homeScore > guestScore) {
-   
-    statsScore.textC.ontent = 'HOME TEAM GET THE LEAD'
-}else if (homeScore < guestScore){
-   
-    statsScore.textContent = 'GUEST TEAM GET THE LEAD'
+if (guestScore < homeScore ) {
+    
+    statsScore.textContent = 'HOME TEAM GET THE LEAD';
+}else if (homeScore < guestScore ){
+    
+    statsScore.textContent = 'GUEST TEAM GET THE LEAD';
 
 }else {
-    statsScore.textContent = 'SCORE IS TIE'
+    statsScore.textContent = 'THE SCORE IS TIE';
 }
 
