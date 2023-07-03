@@ -21,32 +21,38 @@ let countGuest = 0
 function increment_1(){
     countHome += 1
     homeScore.textContent = countHome
+    stats()
 
 }
 function increment_2(){
     countHome += 2
     homeScore.textContent = countHome
+    stats()
 
 }
 function increment_3(){
     countHome += 3
     homeScore.textContent = countHome
+    stats()
 
 }
 //the functions icrement_4/5/6 are for guest-score boards
 function increment_4(){
     countGuest += 1
     guestScore.textContent = countGuest
+    stats()
 
 }
 function increment_5(){
     countGuest += 2
     guestScore.textContent = countGuest
+    stats()
 
 }
 function increment_6(){
     countGuest += 3
     guestScore.textContent = countGuest
+    stats()
 
 }
 function reset() {
@@ -55,17 +61,17 @@ function reset() {
     homeScore.textContent = countHome
     guestScore.textContent = countGuest
 }
-
-if ( homeScore > guestScore ) {
+function stats() {
+if ( countHome > countGuest ) {
     
     statsScore.textContent = 'HOME TEAM GET THE LEAD';
-}else if ( guestScore > homeScore ){
+}else if ( countGuest > countHome ){
     
     statsScore.textContent = 'GUEST TEAM GET THE LEAD';
 
 }else {
     statsScore.textContent = 'THE SCORE IS TIE';
 }
-
+}
 
 
