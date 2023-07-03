@@ -77,6 +77,9 @@ if ( countHome > countGuest ) {
 }
 else {
     statsScore.textContent = 'THE SCORE IS TIE';
+    document.getElementById ("guest").style.color = "white"
+    document.getElementById ("home").style.color = "white"
+    
 }
 }
 
