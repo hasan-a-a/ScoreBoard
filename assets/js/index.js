@@ -74,6 +74,8 @@ if ( countHome > countGuest ) {
 
 }else if (countHome == 0 && countHome == 0){
     statsScore.textContent = 'NEW GAME';
+    document.getElementById ("guest").style.color = "white"
+    document.getElementById ("home").style.color = "white"
 }
 else {
     statsScore.textContent = 'THE SCORE IS TIE';
