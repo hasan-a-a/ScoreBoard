@@ -64,11 +64,13 @@ function reset() {
 }
 function stats() {
 if ( countHome > countGuest ) {
-    
     statsScore.textContent = 'HOME TEAM GET THE LEAD';
-}else if ( countHome > countHome ){
-    
+    document.getElementById ("home").style.color = "red"
+    document.getElementById ("guest").style.color = "white"
+}else if ( countGuest > countHome ){
     statsScore.textContent = 'GUEST TEAM GET THE LEAD';
+    document.getElementById ("guest").style.color = "green"
+    document.getElementById ("home").style.color = "white"
 
 }else if (countHome == 0 && countHome == 0){
     statsScore.textContent = 'NEW GAME';
